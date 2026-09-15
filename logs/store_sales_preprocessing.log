@@ -1,0 +1,32 @@
+2026-09-14 17:57:40,761 - StoreSales_Preprocessing - INFO - Store Sales preprocessing notebook started.
+2026-09-14 18:01:27,682 - StoreSales_Preprocessing - INFO - Starting dataset loading process.
+2026-09-14 18:01:28,897 - StoreSales_Preprocessing - INFO - store.csv loaded successfully.
+2026-09-14 18:01:28,899 - StoreSales_Preprocessing - INFO - train.csv loaded successfully.
+2026-09-14 18:01:28,899 - StoreSales_Preprocessing - INFO - test.csv loaded successfully.
+2026-09-14 18:01:28,901 - StoreSales_Preprocessing - DEBUG - Store dataset shape: (1115, 10)
+2026-09-14 18:01:28,901 - StoreSales_Preprocessing - DEBUG - Train dataset shape: (1017209, 9)
+2026-09-14 18:01:28,905 - StoreSales_Preprocessing - DEBUG - Test dataset shape: (81233, 8)
+2026-09-14 18:14:14,150 - StoreSales_Preprocessing - INFO - Starting missing value handling - store.
+2026-09-14 18:14:14,189 - StoreSales_Preprocessing - INFO - Missing value handling completed - store.
+2026-09-14 18:14:26,797 - StoreSales_Preprocessing - INFO - Starting missing value handling - train.
+2026-09-14 18:14:27,541 - StoreSales_Preprocessing - INFO - Missing value handling completed - train.
+2026-09-14 18:14:39,569 - StoreSales_Preprocessing - INFO - Starting missing value handling - test.
+2026-09-14 18:14:39,733 - StoreSales_Preprocessing - INFO - Missing value handling completed - test.
+2026-09-14 18:16:49,745 - StoreSales_Preprocessing - INFO - Merging store data with train and test datasets.
+2026-09-14 18:16:50,068 - StoreSales_Preprocessing - INFO - Dataset merging completed.
+2026-09-14 18:16:50,070 - StoreSales_Preprocessing - DEBUG - Merged train shape: (1017209, 22)
+2026-09-14 18:16:50,072 - StoreSales_Preprocessing - DEBUG - Merged test shape: (81233, 21)
+2026-09-14 18:17:48,363 - StoreSales_Preprocessing - INFO - Merging store data with train and test datasets.
+2026-09-14 18:17:48,562 - StoreSales_Preprocessing - INFO - Dataset merging completed.
+2026-09-14 18:17:48,562 - StoreSales_Preprocessing - DEBUG - Merged train shape: (1017209, 22)
+2026-09-14 18:17:48,562 - StoreSales_Preprocessing - DEBUG - Merged test shape: (81233, 21)
+2026-09-14 18:18:55,924 - StoreSales_Preprocessing - INFO - Starting missing value handling - test.
+2026-09-14 18:18:56,055 - StoreSales_Preprocessing - INFO - Missing value handling completed - test.
+2026-09-14 18:19:16,103 - StoreSales_Preprocessing - INFO - Merging store data with train and test datasets.
+2026-09-14 18:19:16,304 - StoreSales_Preprocessing - INFO - Dataset merging completed.
+2026-09-14 18:19:16,304 - StoreSales_Preprocessing - DEBUG - Merged train shape: (1017209, 22)
+2026-09-14 18:19:16,321 - StoreSales_Preprocessing - DEBUG - Merged test shape: (41088, 21)
+2026-09-14 18:25:22,676 - StoreSales_Preprocessing - INFO - Starting Exploratory Data Analysis (EDA).
+2026-09-14 18:28:06,477 - StoreSales_Preprocessing - INFO - Exploratory Data Analysis (EDA) completed successfully.
+2026-09-14 18:28:16,988 - StoreSales_Preprocessing - DEBUG - Generating correlation analysis for numerical features.
+2026-09-14 18:40:20,185 - StoreSales_Preprocessing - DEBUG - Missing PromoInterval values - Train: 0, Test: 0
